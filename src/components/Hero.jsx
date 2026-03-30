@@ -32,7 +32,7 @@ const Hero = () => {
             initial={{ opacity: 0, y: 15 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
-            className="text-4xl md:text-8xl font-black text-white tracking-tight mb-8 leading-tight"
+            className="text-3xl md:text-6xl font-black text-white tracking-tight mb-8 leading-tight"
           >
             Our Zenvoice AI agents makes
           </motion.h1>
@@ -53,7 +53,7 @@ const Hero = () => {
                 backgroundPosition: ['0% 50%', '100% 50%', '0% 50%'],
               }}
               transition={{ duration: 15, repeat: Infinity, ease: 'linear' }}
-              className="text-5xl sm:text-7xl md:text-[10rem] font-black tracking-[-0.04em] pb-4 bg-clip-text text-transparent bg-gradient-to-r from-purple-500 via-teal-400 to-blue-500 bg-[length:200%_auto] whitespace-nowrap leading-none"
+              className="text-4xl sm:text-6xl md:text-[7rem] font-black tracking-[-0.04em] pb-4 bg-clip-text text-transparent bg-gradient-to-r from-purple-500 via-teal-400 to-blue-500 bg-[length:200%_auto] whitespace-nowrap leading-none"
             >
               Book Appointments
             </motion.h2>

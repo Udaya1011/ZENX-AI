@@ -19,7 +19,7 @@
   }
   
   .gradient-text {
-    @apply bg-clip-text text-transparent bg-gradient-to-r from-teal-400 via-purple-400 to-blue-400 bg-300% animate-gradient;
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-teal-400 via-purple-400 to-blue-400 bg-300-size animate-gradient;
   }
 
   .nav-link {
@@ -35,8 +35,10 @@
   }
 }
 
-.bg-300% {
-  background-size: 300% 100%;
+@layer utilities {
+  .bg-300-size {
+    background-size: 300% 100%;
+  }
 }
 
 @keyframes gradient {
