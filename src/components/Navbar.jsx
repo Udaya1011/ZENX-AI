@@ -38,13 +38,13 @@ const Navbar = () => {
       <div className="rounded-2xl sm:rounded-full border border-white/10 bg-black/40 backdrop-blur-xl px-4 sm:px-10 py-3 flex justify-between items-center shadow-2xl relative overflow-hidden group">
         <div className="absolute inset-0 rounded-full border border-teal-500/0 group-hover:border-teal-500/20 transition-all duration-500 pointer-events-none" />
         
-        <div className="flex items-center gap-3 relative z-10 shrink-0">
+        <a href="#home" className="flex items-center gap-3 relative z-10 shrink-0 group/logo">
           <img 
             src="/logo.png" 
-            alt="ZenVoice AI Logo" 
-            className="h-8 md:h-10 w-auto object-contain selection:bg-transparent"
+            alt="ZenZai AI Logo" 
+            className="h-8 md:h-10 w-auto object-contain selection:bg-transparent group-hover/logo:brightness-110 transition-all"
           />
-        </div>
+        </a>
 
         <div className="hidden lg:flex items-center gap-8 xl:gap-10">
           {navLinks.map((link) => (

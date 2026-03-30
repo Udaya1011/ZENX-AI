@@ -28,11 +28,13 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-12 mb-20 pb-12 border-b border-white/5">
           {/* Logo and Contact */}
           <div className="flex flex-col gap-6">
-            <img 
-              src="/logo.png" 
-              alt="ZenVoice AI Logo" 
-              className="h-10 w-auto object-contain self-start"
-            />
+            <a href="#home" className="flex flex-col gap-6 group/footerlogo">
+              <img 
+                src="/logo.png" 
+                alt="ZenZai AI Logo" 
+                className="h-10 w-auto object-contain self-start transition-all group-hover/footerlogo:brightness-125"
+              />
+            </a>
             <p className="text-slate-500 text-sm max-w-xs leading-relaxed font-medium">
               Empowering businesses with sovereign AI voice agents. 
               Next-gen automation for a connected world.
@@ -40,7 +42,7 @@ const Footer = () => {
             <div className="flex flex-col gap-4">
               <div className="flex items-center gap-3 text-slate-400 hover:text-white transition-colors cursor-pointer">
                 <Mail size={18} className="text-primary-light" />
-                <span className="text-sm">hello@zenxai.io</span>
+                <span className="text-sm">hello@zenzai.io</span>
               </div>
               <div className="flex items-center gap-3 text-slate-400 hover:text-white transition-colors cursor-pointer">
                 <MapPin size={18} className="text-primary-light" />
@@ -100,7 +102,7 @@ const Footer = () => {
           </div>
 
           <p className="text-slate-500 text-sm order-1 md:order-2">
-            © {currentYear} ZenX AI Inc. All rights reserved.
+            © {currentYear} ZenZai AI Inc. All rights reserved.
           </p>
 
           <div className="flex items-center gap-2 order-3 bg-slate-900 px-4 py-2 rounded-full border border-white/5">
